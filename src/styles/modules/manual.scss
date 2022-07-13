@@ -1,0 +1,33 @@
+.manual {
+  &__inner {
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  &__title {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+
+  &__text {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .manual {
+    &__text {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .manual {
+    &__text {
+      font-size: 18px;
+    }
+  }
+}

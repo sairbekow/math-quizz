@@ -1,0 +1,16 @@
+//fonts
+//@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+//common styles
+@import 'common';
+@import 'variables';
+@import 'global';
+
+//modules
+@import 'modules/start-page';
+@import 'modules/game-field';
+@import 'modules/game-over';
+@import 'modules/leaderboard';
+@import 'modules/manual';
+@import 'modules/timer';
+
