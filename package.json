@@ -10,6 +10,10 @@
   "keywords": [],
   "author": "Argen <sairbekow@gmail.com>",
   "license": "ISC",
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
@@ -25,5 +29,8 @@
     "webpack": "^5.73.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.1"
   }
 }
